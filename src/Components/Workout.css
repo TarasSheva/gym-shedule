@@ -1,0 +1,15 @@
+.Workout {
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(90deg, #0037ff 0%, #e469e6 100%);
+}
+.Workout h1 {
+    color: white;
+    text-align: center;
+}
+.WorkoutWrapper {
+    width: 600px;
+}

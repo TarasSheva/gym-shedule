@@ -1,0 +1,24 @@
+.Week {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(90deg, #0037ff 0%, #e469e6 100%);
+}
+.Week p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.Week p:hover {
+    border: 5px;
+    background-image: -webkit-linear-gradient(left, hotPink 0%, orange 100%, transparent 50%);
+    -webkit-transition: .5s;
+}
+.WeekWrapper {
+    display: block;
+    text-align: center;
+
+}

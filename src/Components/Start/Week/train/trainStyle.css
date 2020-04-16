@@ -1,0 +1,48 @@
+.trainStyle {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #0037ff 0%, #e469e6 100%);
+    justify-content: center;
+    text-align: center;
+}
+.trainStyle ul li {
+    padding: 3px;
+    color: white;
+    font-size: 20px;
+}
+.trainStyle h1 {
+    color: white;
+    font-size: 35px;
+}
+.trainStyle button {
+    width:90px;
+    text-align:center;
+    display:block;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    border: #1071FF 1px solid;
+    color: #1071FF;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px auto;
+    transition: .5s;
+    border-radius: 0px;
+}
+.trainStyle button:hover {
+    top: 5px;
+    transition: .5s;
+    color: #10FF58;
+    border: #10FF58 1px solid;
+    border-radius: 10px;
+}
+.trainStyle button:active {
+    color: #000;
+    border: #1A1A1A 1px solid;
+    transition: .07s;
+    background-color: #FFF;
+    outline: none;
+}

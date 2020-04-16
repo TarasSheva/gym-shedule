@@ -1,0 +1,45 @@
+.homeStart {
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(90deg, #0037ff 0%, #e469e6 100%);
+}
+.Start {
+    position: fixed;
+    top: 150px;
+    display: grid;
+    justify-content: center;
+    z-index: 100;
+    width: 100%;
+}
+.Start h1 {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+}
+.Start button {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    background: #560067;
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+}
+.Start button:focus {
+    outline: none;
+    cursor: pointer;
+
+}
+.Start button:active {
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .5);
+
+}
